@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scientific Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calculator">
+    <input type="text" id="display" readonly>
+
+    <div class="top-buttons">
+        <button id="mode-btn">⚛</button>
+        <button id="history-btn">H</button>
+    </div>
+
+    <!-- Normal Buttons -->
+    <div id="normal-buttons" class="buttons">
+        <button>AC</button>
+        <button>←</button>
+        <button>%</button>
+        <button>/</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>+</button>
+        <button></button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        
+    </div>
+
+    <!-- Scientific Buttons -->
+    <div id="sci-buttons" class="buttons hidden">
+        <button>sin</button>
+        <button>cos</button>
+        <button>tan</button>
+        <button>ln</button>
+         <button>log</button>
+        <button>√</button>
+        <button>(</button>
+        <button>)</button>
+        <button>^2</button>
+        <button>^3</button>
+        <button>^</button>
+        <button>π</button>
+        <button>e</button>
+        <button>x!</button>
+        <button>exp</button>
+        <button>1/x</button>
+        
+    </div>
+
+    <!-- History Panel -->
+    <div id="history" class="hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
